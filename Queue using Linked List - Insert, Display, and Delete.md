@@ -40,22 +40,22 @@ queue.append('b')
 
 queue.append('c')
 
-queue.append('d')
+print('Queue after elements are inserted:')
 
-print('Initial Queue: ' + str(queue))
+print(queue)
 
-front=queue[0]
+print('Deleting the first element inserted:')
 
-rear=queue[3]
+print(queue.pop(0))
 
-print("\nElement at the front of the queue is..... ", front)
+print('Queue after the first elements is deleted:')
 
-print("\nElement at the rear of the queue is .....", rear)
+print(queue)
 
 
 ## Output
 
-<img width="426" height="116" alt="image" src="https://github.com/user-attachments/assets/92c20108-1706-450e-abd9-185ceb2b1455" />
+<img width="437" height="133" alt="image" src="https://github.com/user-attachments/assets/6e5f03f9-956c-4035-883b-25d9eac9e087" />
 
 ## Result
 
